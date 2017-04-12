@@ -16,7 +16,10 @@
     "vue": "2.2.4",
     "vue-chartjs": "2.5.4",
     "vue-router": "^2.2.0",
-    "vue-strap": "github:wffranco/vue-strap"
+    "vue-strap": "github:wffranco/vue-strap",
+    "vuex": "^2.0.0",
+    "vue-authenticate": "",
+    "axios": ""
   },
   "devDependencies": {
     "autoprefixer": "6.7.7",

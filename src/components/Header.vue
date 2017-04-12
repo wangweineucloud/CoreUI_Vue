@@ -29,7 +29,7 @@
       <dropdown size="nav" class="nav-item">
         <span slot="button">
           <img src="static/img/avatars/6.jpg" class="img-avatar" alt="admin@bootstrapmaster.com">
-          <span class="hidden-md-down">admin</span>
+          <span class="hidden-md-down">{{ username }}</span>
         </span>
         <div slot="dropdown-menu"class="dropdown-menu dropdown-menu-right">
 
@@ -67,6 +67,11 @@ export default {
   components: {
     navbar,
     dropdown
+  },
+  computed: {
+    username () {
+      return this.$store.state.user.name
+    }
   },
   methods: {
     click () {
