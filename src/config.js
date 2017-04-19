@@ -1,4 +1,4 @@
 export default {
-  uaa: 'http://uaa.i.saasapps.cn',
-  clientId: '123'
+  uaa: 'http://uaademo-anol45wo.i.saasapps.cn/',
+  clientId: '1'
 }
